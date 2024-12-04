@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cac6c6;
+  border-radius: 0 28px;
+}
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ff0000;
+  color: white;
+}
+footer .footer__icons {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+footer .footer__socials {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.red {
+  color: #ff0000;
+}
+h1,
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
