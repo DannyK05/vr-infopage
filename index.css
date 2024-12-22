@@ -1,25 +1,33 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-VariableFont_opsz\,wght.ttf");
+}
 * {
   box-sizing: border-box;
   margin: 0;
   text-decoration: none;
+  font-family: Inter, sans-serif;
 }
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #cac6c6;
-  border-radius: 0 28px;
+  border-radius: 0 28px 0px 28px;
+  padding: 13px 30px;
 }
 main {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 20px 120px;
 }
 section {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 footer {
   width: 100%;
@@ -28,6 +36,7 @@ footer {
   flex-direction: column;
   background-color: #ff0000;
   color: white;
+  padding: 20px 56px;
 }
 footer .footer__icons {
   width: 60%;
@@ -43,11 +52,58 @@ footer .footer__socials {
   justify-content: center;
 }
 
+footer .footer__socials span {
+  margin-right: 88px;
+}
+footer .footer__icons img {
+  margin-right: 80px;
+}
 span.red {
   color: #ff0000;
 }
-h1,
-h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+.image-bg {
+  background-image: url("./images/ufo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image {
+  width: 60%;
+}
+.image img {
+  width: 100%;
+}
+.landing img {
+  width: 70%;
+  margin: 0 auto;
+}
+.section-one,
+.section-three {
+  flex-direction: row-reverse;
+  align-items: start;
+}
+.section-two,
+.section-four {
+  flex-direction: row;
+  align-items: end;
+}
+.content {
+  width: 42ch;
+}
+
+header .nav {
+  width: 45%;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .actions button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
