@@ -53,10 +53,10 @@ footer .footer__socials {
 }
 
 footer .footer__socials span {
-  margin-right: 88px;
+  margin-right: 8%;
 }
 footer .footer__icons img {
-  margin-right: 80px;
+  margin-right: 11%;
 }
 span.red {
   color: #ff0000;
@@ -106,4 +106,29 @@ header .actions button {
   border: none;
   padding: 5px 10px;
   border-radius: 10px;
+}
+@media (max-width: 540px) {
+  main {
+    padding: 20px 40px;
+  }
+  .landing img {
+    width: 100%;
+  }
+  .section-one,
+  .section-three {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-two,
+  .section-four {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .image {
+    width: 100%;
+  }
 }
